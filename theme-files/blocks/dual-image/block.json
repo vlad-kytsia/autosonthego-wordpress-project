@@ -1,0 +1,28 @@
+{
+  "apiVersion": 3,
+  "name": "autos/dual-image",
+  "title": "Dual Image (Desktop + Mobile)",
+  "category": "media",
+  "icon": "format-image",
+  "description": "Insert a desktop and mobile version of an image using <picture>.",
+  "supports": {
+    "align": ["wide", "full"]
+  },
+  "attributes": {
+    "desktopImage": {
+      "type": "object",
+      "default": null
+    },
+    "mobileImage": {
+      "type": "object",
+      "default": null
+    },
+    "alt": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "editorStyle": "file:./editor.css"
+}

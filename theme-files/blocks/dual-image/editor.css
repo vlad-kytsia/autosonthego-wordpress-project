@@ -1,0 +1,32 @@
+/* Container of the block in editor */
+.dual-image-block {
+    padding: 20px;
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    background: #f8f9fa;
+    max-width: 800px;     /* ЦЕ ГОЛОВНЕ — ширина блока */
+    margin: 0 auto 80px;
+}
+
+/* Groups for upload areas */
+.dual-image-block .image-upload-group {
+    margin-bottom: 24px;
+}
+
+/* Image preview should fit inside block */
+.dual-image-block img.preview {
+    display: block;
+    width: 100%;
+    max-height: 360px;  
+    object-fit: cover;
+    max-width: 100%;    
+    height: auto;
+    margin-top: 12px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    float: initial;
+}
+.dual-image-block .image-upload-group:last-child img.preview {
+    max-width: 480px;
+}

@@ -1,0 +1,86 @@
+/* ==========================================
+   GUTENBERG EDITOR STYLES
+   Visible in backend block editor
+========================================== */
+
+.editor-styles-wrapper h2 {
+    font-family: "Funnel Display";
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    margin-bottom: 80px;
+}
+
+.editor-styles-wrapper h3 {
+    font-family: "Funnel Display";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #0d233b;
+    margin-bottom: 80px;
+}
+
+/* Make sure styles apply inside Gutenberg canvas */
+.editor-styles-wrapper .is-style-light-small {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #0d233b;
+    opacity: 0.7;
+    margin-bottom: 40px;
+}
+
+.editor-styles-wrapper .is-style-bold-large {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #0d233b;
+    margin-bottom: 80px;
+}
+.editor-styles-wrapper .is-style-thin-large {
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: #0d233b;
+    margin-bottom: 80px;
+}
+
+.editor-styles-wrapper .is-style-light-small + ul {
+    margin-top: -20px;
+}
+.editor-styles-wrapper .is-style-bold-large + ul {
+    margin-top: -60px;
+}
+.editor-styles-wrapper .is-style-thin-large + ul {
+    margin-top: -60px;
+}
+
+.editor-styles-wrapper ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    margin-bottom: 80px;
+}
+
+.editor-styles-wrapper ul li {
+    position: relative;
+    padding-left: 32px; 
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 140%;
+}
+
+.editor-styles-wrapper ul li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px; /* регулюй по дизайну */
+    width: 19px;
+    height: 16px;
+
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='19' height='16' viewBox='0 0 19 16'><path d='M0 15.6802L3.92 0.000213623H6.04L2.12 15.6802H0ZM6.03516 15.6802L9.95516 0.000213623H12.0752L8.15516 15.6802H6.03516ZM12.0703 15.6802L15.9903 0.000213623H18.1103L14.1903 15.6802H12.0703Z' fill='%23FFCC00'/></svg>");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
