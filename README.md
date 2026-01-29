@@ -21,7 +21,7 @@ This project includes full front-end implementation, dynamic content management 
 
 The demo video shows page structure, interactions, blog layout, and mobile responsiveness.
 
-➡️ [Demo Video](./demo-video/autosonthego.mp4)
+➡️ [Demo Video](./demo-video/autos-on-the-go.mp4)
 
 ---
 
