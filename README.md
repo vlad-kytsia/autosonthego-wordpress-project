@@ -19,7 +19,7 @@ This project includes full front-end implementation, dynamic content management 
 
 ## 🎥 Demo Video
 
-The demo video shows page structure, interactions, blog layout, and mobile responsiveness.
+The demo video shows page structure, and interactions.
 
 ➡️ [Demo Video](./demo-video/autos-on-the-go.mp4)
 
@@ -30,7 +30,7 @@ The demo video shows page structure, interactions, blog layout, and mobile respo
 This project involved building a **custom WordPress theme from scratch** for a multi-page website with a blog.
 
 I developed the full HTML/CSS/JavaScript front-end and integrated it into WordPress as a custom theme.
-Dynamic content was implemented using **Custom Fields**.
+Dynamic content was implemented using **Advanced Custom Fields**.
 
 For form management, I used **Gravity Forms**.
 SEO optimization was handled with **Yoast SEO**.
@@ -47,12 +47,12 @@ The website was also fully populated with content and tested across devices for 
 * WordPress
 * Custom Theme Development
 * Gutenberg Editor (custom elements)
-* Custom Fields
+* Advanced Custom Fields
 * Gravity Forms
 * Yoast SEO
 * Accessibility by UserWay
 * HTML5
-* CSS3 / SASS
+* CSS3 / SCSS
 * JavaScript
 * PHP
 
@@ -63,7 +63,7 @@ The website was also fully populated with content and tested across devices for 
 * Custom WordPress theme built from scratch
 * Multi-page structure with blog
 * Custom Gutenberg blocks and page template
-* Custom Fields for dynamic content
+* Advanced Custom Fields for dynamic content
 * Gravity Forms integration
 * SEO optimization with Yoast
 * Accessibility improvements
@@ -78,7 +78,7 @@ This repository contains:
 
 * Key files of the custom WordPress theme
 * Front-end source files (CSS, JS, HTML parts)
-* Screenshots of the website
+* Screenshot of the website
 * Demo video
 
 > WordPress core files and plugins are not included.
